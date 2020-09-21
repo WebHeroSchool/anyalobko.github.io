@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
       <meta charset="utf-8">
       <title>Axion</title> 
   </head>
     <body class="body">
+
       <!-- секция с меню и главной картинки в шапке -->
       <header class="header">
         <img class="header__logo" src="#" alt="Man skating in sneakers">
-        <nav class="header__menuLeft">
+        <nav class="header__menu-left">
           <a class="header__item" href="#">SHOP</a>
           <a class="header__item" href="#">NEWS</a>
           <a class="header__item" href="#">TEAM</a>
           <a class="header__item" href="#">LEGACY</a>
           <a class="header__item" href="#">HELP</a>
         </nav>
-        <nav class="header__menuRight">
+        <nav class="header__menu-right">
           <div class="header__search"> 
           <!-- линия поиска будет сделана через CSS border-bottom -->
           <i class="header__icon"></i> 
@@ -26,54 +27,58 @@
             <i class="header__icon"></i> 
             <i class="header__icon"></i> 
         </nav>
-        <div class="header__img"> <!-- картинка будет как background -->
-          <h1 class="header__title">
-            LEGENDARY FOOTWEAT REBORN.
-          </h1>
-          <a class="header__link" href="#">SHOP NOW</a>
-          <i class="header__icon"></i> <!-- стрелка -->
-        </div>
       </header>
+
+      <!-- секция с картинкой -->
+      <section class="image">
+        <h1 class="image__title">
+          LEGENDARY FOOTWEAT REBORN.
+        </h1>
+        <a class="image__link" href="#">SHOP NOW</a>
+        <i class="image__icon"></i> <!-- стрелка -->
+      </section>
+
       <!-- секция с Featured Products -->
-      <section class="product">
-        <h2 class="product__title">
+      <section class="products">
+        <h2 class="products__title">
           FEATURED PRODUCT
         </h2>
-        <div class="product__item">
-          <img class="product__img" src="#" alt="Atlas Black/Rasta Axion">
-          <h3 class="product__subtitle">
+        <div class="product-item">
+          <img class="product-item__img" src="#" alt="Atlas Black/Rasta Axion">
+          <h3 class="product-item__subtitle">
             Atlas Black/Rasta Axion
           </h3>
-          <span class="product__price">$89.00</span> 
+          <span class="product-item__price">$89.00</span> 
           <!-- цветовая гамма будет сделана с псевдоэлементами -->
         </div>
-        <div class="product__item">
-          <img class="product__img" src="#" alt="Camel/Chili Pepper Axion">
-          <h3 class="product__subtitle">
+        <div class="product-item">
+          <img class="product-item__img" src="#" alt="Camel/Chili Pepper Axion">
+          <h3 class="product-item__subtitle">
             Camel/Chili Pepper Axion 
           </h3>
-          <span class="product__price">$74.00</span> 
+          <span class="product-item__price">$74.00</span> 
         </div>
-        <div class="product__item">
-          <img class="product__img" src="#" alt="Mandel Smoke/Rust Axion">
-          <h3 class="product__subtitle">
+        <div class="product-item">
+          <img class="product-item__img" src="#" alt="Mandel Smoke/Rust Axion">
+          <h3 class="product-item__subtitle">
             Mandel Smoke/Rust Axion  
           </h3>
-          <span class="product__price">$69.00</span> 
+          <span class="product-item__price">$69.00</span> 
         </div>
-        <div class="product__item">
-          <img class="product__img" src="#" alt="Cloud/Electric Blue Axion">
-          <h3 class="product__subtitle">
+        <div class="product-item">
+          <img class="product-item__img" src="#" alt="Cloud/Electric Blue Axion">
+          <h3 class="product-item__subtitle">
             Cloud/Electric Blue Axion   
           </h3>
-          <span class="product__price">$69.00</span> 
+          <span class="product-item__price">$69.00</span> 
         </div>
       </section>
+
       <!-- секция с видео и информацией о бренде -->
       <section class="mission">
-        <article class="mission__video">
+          <article class="mission__video">
           <video>
-            <source src="#" type="video/mp4" alt="Video about Axion mission">
+            <source src="#" type="video/mp4">
               Your browser does not support this video format.
           </video>
         </article>
@@ -86,14 +91,15 @@
           </p>
           <a class="mission__link" href="#"> LEARN MORE</a>
           <i class="header__icon"></i> <!-- стрелка -->
-        /article>
+        </article>
       </section>
+
       <!-- секция с блогом -->
       <section class="blog">
         <h2 class="blog__title">
           RECENT STORIES
         </h2>
-        <div class-="blog__entry">
+        <div class="blog__entry">
           <img class="blog__img" src="#" alt="Presents Justin Anagoa">
           <h3 class="blog__subtitle">
             Presents Justin Anagoa
@@ -107,7 +113,7 @@
           <i class="header__icon"></i> <!-- стрелка -->
           <span class="blog__date">11.08.2018</span>
         </div>
-        <div class-="blog__entry">
+        <div class="blog__entry">
           <img class="blog__img" src="#" alt="First Frontside flip">
           <h3 class="blog__subtitle">
             First Frontside flip
@@ -121,7 +127,7 @@
           <i class="header__icon"></i> <!-- стрелка -->
           <span class="blog__date">17.08.2018</span>
         </div>
-        <div class-="blog__entry">
+        <div class="blog__entry">
           <img class="blog__img" src="#" alt="Kevin Baekkel is Pro">
           <h3 class="blog__subtitle">
             Kevin Baekkel is Pro
@@ -135,6 +141,7 @@
           <span class="blog__date">29.07.2018</span>
         </div>
       </section> 
+
       <!-- секция с галереей -->
       <section class="gallery">
         <h3 class="gallery__subtitle">#AXIONFOOTWEAR</h3>
@@ -146,6 +153,7 @@
           <img class="gallery__img" src="#" alt="High jump on a skateboard">
           <img class="gallery__img" src="#" alt="A guy standing at the wall">
       </section>
+
       <!-- подвал -->
       <footer class="footer">
         <article class="wrap">
@@ -206,211 +214,4 @@
         <span class="footer__copyright">© 2019 Axion. All rights reserved.</span>
       </footer>
     </body>
-</html>
-    <head>
-        <meta charset="utf-8">
-        <title>Axion</title> 
-    </head>
-    <body class="body">
-        <!-- секция с меню и главной картинки в шапке -->
-        <header class="header">
-            <img class="header__logo" src="#" alt="Man skating in sneakers">
-            <nav class="header__menuLeft">
-                <a class="header__item" href="#">SHOP</a>
-                <a class="header__item" href="#">NEWS</a>
-                <a class="header__item" href="#">TEAM</a>
-                <a class="header__item" href="#">LEGACY</a>
-                <a class="header__item" href="#">HELP</a>
-            </nav>
-            <nav class="header__menuRight">
-                <div class="header__search"> 
-                    <!-- линия поиска будет сделана через CSS border-bottom -->
-                    <i class="header__icon"></i> 
-                </div>
-                <a class="header__item" href="#">SIGN IN</a>
-                <a class="header__item" href="#">CART</a>
-                <!-- кол-во товаров в корзине и флаг-->
-                <i class="header__icon"></i> 
-                <i class="header__icon"></i> 
-            </nav>
-            <div class="header__img"> <!-- картинка будет как background -->
-                <h1 class="header__title">
-                    LEGENDARY FOOTWEAT REBORN.
-                </h1>
-                <a class="header__link" href="#">SHOP NOW</a>
-                <i class="header__icon"></i> <!-- стрелка -->
-            </div>
-        </header>
-        <!-- секция с Featured Products -->
-        <section class="product">
-            <h2 class="product__title">
-                FEATURED PRODUCT
-            </h2>
-            <div class="product__item">
-                <img class="product__img" src="#" alt="Atlas Black/Rasta Axion">
-                <h3 class="product__subtitle">
-                    Atlas Black/Rasta Axion
-                </h3>
-                <span class="product__price">$89.00</span> 
-                <!-- цветовая гамма будет сделана с псевдоэлементами -->
-            </div>
-            <div class="product__item">
-                <img class="product__img" src="#" alt="Camel/Chili Pepper Axion">
-                <h3 class="product__subtitle">
-                    Camel/Chili Pepper Axion 
-                </h3>
-                <span class="product__price">$74.00</span> 
-            </div>
-            <div class="product__item">
-                <img class="product__img" src="#" alt="Mandel Smoke/Rust Axion">
-                <h3 class="product__subtitle">
-                    Mandel Smoke/Rust Axion  
-                </h3>
-                <span class="product__price">$69.00</span> 
-            </div>
-            <div class="product__item">
-                <img class="product__img" src="#" alt="Cloud/Electric Blue Axion">
-                <h3 class="product__subtitle">
-                    Cloud/Electric Blue Axion   
-                </h3>
-                <span class="product__price">$69.00</span> 
-            </div>
-        </section>
-        <!-- секция с видео и информацией о бренде -->
-        <section class="mission">
-            <article class="mission__video">
-                <video>
-                    <source src="#" type="video/mp4">
-                        Your browser does not support this video format.
-                </video>
-            </article>
-            <article>
-                <h2 class="mission__title">
-                    LEGENDARY FOOTWEAR REBORN
-                </h2>
-                <p class="mission__description">
-                    We are a brand with a history and are relaunching for 2019. We’ve been a part of the skater’s family ever since it’s early teenage years. And now we presentate a new footwear collection. 
-                </p>
-                <a class="mission__link" href="#"> LEARN MORE</a>
-                <i class="header__icon"></i> <!-- стрелка -->
-            </article>
-        </section>
-        <!-- секция с блогом -->
-        <section class="blog">
-            <h2 class="blog__title">
-                RECENT STORIES
-            </h2>
-            <div class-="blog__entry">
-                <img class="blog__img" src="#" alt="Presents Justin Anagoa">
-                <h3 class="blog__subtitle">
-                    Presents Justin Anagoa
-                </h3>
-                <p class="blog__description">
-                    Anagoa’s been a part of the skater’s family ever since his early teenage years. 
-                    He’s been known to go big on and off the board, but it’s been rare we get a glimpse into how Anagoa lives his day-to-day, 
-                    to see what makes Anagoa tick.
-                </p>
-                <a class="blog__link">LEARN MORE</a>
-                <i class="header__icon"></i> <!-- стрелка -->
-                <span class="blog__date">11.08.2018</span>
-            </div>
-            <div class-="blog__entry">
-                <img class="blog__img" src="#" alt="First Frontside flip">
-                <h3 class="blog__subtitle">
-                    First Frontside flip
-                </h3>
-                <p class="blog__description">
-                    Yoon recently discusses his first time shooting a signature Andrew Reynolds frontside flip on The Berrics. 
-                    Click the image below to see the full gallery and read up on what happened that day. 
-                    Photo: Yoon Sul
-                </p>
-                <a class="blog__link">LEARN MORE</a>
-                <i class="header__icon"></i> <!-- стрелка -->
-                <span class="blog__date">17.08.2018</span>
-            </div>
-            <div class-="blog__entry">
-                <img class="blog__img" src="#" alt="Kevin Baekkel is Pro">
-                <h3 class="blog__subtitle">
-                    Kevin Baekkel is Pro
-                </h3>
-                <p class="blog__description">
-                    Creature proudly announced today that they’re officially adding Kevin Baekkel to their pro roster. 
-                    After paying his dues for years, killing it on last years Thrasher King of the Road, and constantly lighting every spot he hits on fire.
-                </p>
-                <a class="blog__link">LEARN MORE</a>
-                <i class="header__icon"></i> <!-- стрелка -->
-                <span class="blog__date">29.07.2018</span>
-            </div>
-        </section>
-        <!-- секция с галереей -->
-        <section class="gallery">
-            <h3 class="gallery__subtitle">#AXIONFOOTWEAR</h3>
-            <img class="gallery__img" src="#" alt="Skater man">
-            <img class="gallery__img" src="#" alt="Skater girl">
-            <img class="gallery__img" src="#" alt="A guy jumping on his board">
-            <img class="gallery__img" src="#" alt="Skateboarding on a rump">
-            <img class="gallery__img" src="#" alt="Skateboarding tricks">
-            <img class="gallery__img" src="#" alt="High jump on a skateboard">
-            <img class="gallery__img" src="#" alt="A guy standing at the wall">
-        </section>
-        <!-- подвал -->
-        <footer class="footer">
-            <article class="wrap">
-                <h4 class="footer__title">
-                    MY ACCOUNT
-                </h4>
-                <ul class="footer__list nobull"> <!-- nobull уберет точки возле элементов списка -->
-                    <li class="footer__item">Login</li>
-                    <li class="footer__item">Wish List</li>
-                    <li class="footer__item">Order History<li>
-                    <li class="footer__item">Track order</li>
-                    <li class="footer__item">Gift Cards</li>
-                </ul>
-            </article>
-            <article class="wrap">
-                <h4 class="footer__title">
-                    CUSTOMER SERVICE
-                </h4>
-                <ul class="footer__list nobull">
-                    <li class="footer__item">Contact us</li>
-                    <li class="footer__item">Help/FAQ</li>
-                    <li class="footer__item">Shipping</li>
-                    <li class="footer__item">Returns</li>
-                    <li class="footer__item">Size guide</li>
-                    <li class="footer__item">Holiday shopping</li>
-                </ul>
-            </article>
-            <article class="wrap">
-                <h4 class="footer__title">
-                    MISCELLANEOUS
-                </h4>
-                <ul class="footer__list nobull">
-                    <li class="footer__item">About Us</li>
-                    <li class="footer__item">Careers</li>
-                    <li class="footer__item">Privacy Policy</li>
-                    <li class="footer__item">Terms & Conditions</li>
-                    <li class="footer__item">Ethical Policy</li>
-                    <li class="footer__item">Homepage US/UK</li>
-                </ul>
-            </article>
-            <article class="wrap">
-                <h4 class="footer__title">
-                    NEWSLETTER SIGN UP
-                </h4>
-                <span class="footer__item">
-                    Get 10% Off Your Next Order!
-                </span>
-                <button class="footer__button">
-                    SIGN UP
-                </button>
-                <div class="social">
-                    <i class="social__icon"></i>
-                    <i class="social__icon"></i>
-                    <i class="social__icon"></i>
-                    <i class="social__icon"></i>
-                </div>
-            </article>
-            <span class="footer__copyright">© 2019 Axion. All rights reserved.</span>
-        </footer>
-   </body>
 </html>
