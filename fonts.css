@@ -21,7 +21,6 @@
        url('GothamPro-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 /* font-family: Montserrat - Regular */
@@ -34,7 +33,6 @@
        url('Montserrat-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 /* font-family: Montserrat - Bold */
@@ -47,5 +45,4 @@
        url('Montserrat-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
