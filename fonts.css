@@ -24,9 +24,9 @@
   font-display: swap;
 }
 
-/* font-family: Montserrat-Regular */
+/* font-family: Montserrat - Regular */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Regular';
   src: url('Montserrat-Regular.eot');
   src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
        url('Montserrat-Regular.woff2') format('woff2'),
@@ -37,9 +37,9 @@
   font-display: swap;
 }
 
-/* font-family: Montserrat-Bold */
+/* font-family: Montserrat - Bold */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Bold';
   src: url('Montserrat-Bold.eot');
   src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
        url('Montserrat-Bold.woff2') format('woff2'),
