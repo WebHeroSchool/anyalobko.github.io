@@ -7,6 +7,9 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  font-family: 'GothamPro', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .header__logo {
