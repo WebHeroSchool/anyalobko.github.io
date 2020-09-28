@@ -1,4 +1,10 @@
 header {
   font-family: GothamPro ;
   font-weight: 400;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+
 }
