@@ -29,6 +29,7 @@ a {
   font-weight: 700;
   font-size: 12px;
   height: 24px;
+  background: pink;
 }
 
 .header__controls {
@@ -38,16 +39,24 @@ a {
 }
 
 .header__search {
-  width: 177.93px;
-  margin-left: 191.55px;
+  display: inline-block;
+  width: 178px;
   margin-right: 35px;
+  border: none;
   border-bottom: 1px solid #000000;
   align-items: center;
 }
 
+input {
+  padding-left: 157px;
+  border: none;
+}
+
 .header__icon-one {
-  width: 14.92px;
-  height: 14.92px;
   margin-left: 3.02px;
   align-content: center;
+}
+
+.cart {
+  align-items: center;
 }
