@@ -1,35 +1,42 @@
+.body {
+  margin: 0 auto;
+}
+
 .header {
   max-width: 1170px;
-  margin: 0 auto;
   padding: 32.46px 70px 0 70px;
   display: flex;
   align-items: center;
-  font-family: "GothamPro", sans-serif;
+  font-family: "GothamPro";
 }
 
 .header__logo {
   width: 55px;
   height: 55px;
+}
 
+nav {
+  display: inline-block;
 }
 
 nav.header__menu {
   padding-left: 45px;
   text-transform: uppercase;
-  height: 24px;
+  font-size: 0;
 }
 
 a {
   text-decoration: none;
-  color: #000000;
 }
 
 .header__item {
+  background-color: aqua;
+  margin-left: 0;
   padding-right: 35px;
   font-weight: 700;
   font-size: 12px;
-  height: 24px;
-  background: pink;
+  height: 24px;;
+  padding-left: 0;
 }
 
 .header__controls {
