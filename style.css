@@ -4,10 +4,11 @@
 
 .header {
   max-width: 1170px;
-  padding: 32.46px 70px 0 70px;
+  padding: 33px 70px 0 70px;
   display: flex;
   align-items: center;
   font-family: "GothamPro";
+  font-weight: 700;
 }
 
 .header__logo {
@@ -27,27 +28,29 @@ nav.header__menu {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 .header__item {
-  background-color: aqua;
   margin-left: 0;
   padding-right: 35px;
-  font-weight: 700;
   font-size: 12px;
-  height: 24px;;
+  height: 12px;;
   padding-left: 0;
 }
 
 .header__controls {
+  display: inline-block;
   height: 24px;
   flex: 1;
   text-align: right;
 }
 
-.header__search {
+.wrapper {
   display: inline-block;
-  width: 178px;
+}
+
+.header__search {
   margin-right: 35px;
   border: none;
   border-bottom: 1px solid #000000;
@@ -55,7 +58,8 @@ a {
 }
 
 input {
-  padding-left: 157px;
+  padding-left: 0;
+  width: 178px;
   border: none;
 }
 
