@@ -1,5 +1,6 @@
 .body {
   margin: 0 auto;
+  font-family: "GothamPro";
 }
 
 header.header {
@@ -7,7 +8,6 @@ header.header {
   padding: 33px 70px 0 70px;
   display: flex;
   align-items: center;
-  font-family: "GothamPro";
   font-weight: 700;
   font-size: 12px;
   margin: 0 auto;
@@ -38,7 +38,7 @@ a {
   margin-left: 0;
   padding-right: 35px;
   font-size: 12px;
-  height: 12px;;
+  height: 12px;
   padding-left: 0;
 }
 
@@ -52,6 +52,7 @@ a {
 }
 
 .header__search {
+  display: inline-block;
   padding-top: 5px;
   margin-right: 35px;
   border: none;
@@ -78,16 +79,13 @@ input {
 
 .header__icon-one {
   margin-left: 3px;
-  align-content: center;
-}
-
-img.header_icon-flag {
-  display: inline-block;
-  text-align: right;
-  padding: 0;
+  text-align: center;
   margin: 0;
 }
 
-.cart {
-  align-items: center;
+.header_icon-flag {
+  display: inline-block;
+  /* text-align: right; */
+  padding: 0;
+  margin: 0;
 }
