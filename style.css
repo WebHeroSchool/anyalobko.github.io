@@ -1,0 +1,22 @@
+html {
+  font-family: 'GothamPro-Regular';
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  width: 88%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 55px;
+  margin-top: 32px;
+  font-family: 'GothamPro-Bold';
+  font-size: 12px;
+}
