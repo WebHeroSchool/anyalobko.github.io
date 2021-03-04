@@ -1,5 +1,5 @@
 html {
-  font-family: 'gothamPro-regular';
+  font-family: 'GothamPro-Regular';
 }
 
 body {
@@ -17,6 +17,6 @@ body {
   align-content: center;
   height: 55px;
   margin-top: 32px;
-  font-family: 'gothamPro-bold';
+  font-family: 'GothamPro-Bold';
   font-size: 12px;
 }
