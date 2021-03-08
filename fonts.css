@@ -1,6 +1,6 @@
 /* font-family: Gotham Pro - Regular */
 @font-face {
-  font-family: 'GothamPro-Regular';
+  font-family: 'GothamPro';
   src: url('fonts/GothamPro-Regular/GothamPro.eot');
   src: url('fonts/GothamPro-Regular/GothamPro.eot?#iefix') format('embedded-opentype'),
        url('fonts/GothamPro-Regular/GothamPro.woff2') format('woff2'),
@@ -12,7 +12,7 @@
 
 /* font-family: Gotham Pro - Bold */
 @font-face {
-  font-family: 'GothamPro-Bold';
+  font-family: 'GothamPro';
   src: url('fonts/GothamPro-Bold/GothamPro-Bold.eot');
   src: url('fonts/GothamPro-Bold/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
        url('fonts/GothamPro-Bold/GothamPro-Bold.woff2') format('woff2'),
