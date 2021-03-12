@@ -18,7 +18,7 @@
             <a class="header__item" href="#">LEGACY</a>
             <a class="header__item" href="#">HELP</a>
           </nav>
-  
+
           <!-- отсек для правой части меню -->
           <div class="header__controls">
             <div class="header__search">
@@ -26,11 +26,22 @@
               <img class="header__icon-search" alt="search-icon" src="images/search-icon.png">
             </div>
             <a class="header__right" href="#">SIGN IN</a>
-            <a class="header__right" href="#">CART </a>
-            <img class="header__icon-one" alt="in-cart" src="images/cart-full.png">
+            <a class="header__right header__right-bucket" href="#">CART 
+              <img class="header__icon-one" alt="in-cart" src="images/cart-full.png">
+            </a>
             <img class="header__icon-flag" accesskey="flat" src="images/united-states.png"> 
           </div>
       </header>
+
+      <!-- burger + logo 2 -->
+      <div class="header__burger">
+        <img class="burger__logo2" src="images/Axion-logo-2.png">
+        <input id="burger__switch" type="checkbox" /> <!-- checkbox input to open adaptive menu -->
+          <label class="burger__button" for="burger__switch">
+            <span></span>
+          </label>
+      </div>
+
       <!-- секция для картинки -->
       <section class="image"> 
         <h1 class="image__title">
