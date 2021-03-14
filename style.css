@@ -19,7 +19,7 @@ body { margin: 0; }
 .header__menu {
   display: flex;
   align-items: center;
-  padding-right: 191px;
+  padding-right: 130px;
 }
 
 .burger__logo2 { display: none; }
@@ -176,7 +176,7 @@ input {
     margin-right: 30px;
   }
 
-  .header__menu { padding-right: 140px; }
+  .header__menu { padding-right: 0px; }
 
   input { width: 140px; }
 
