@@ -121,6 +121,7 @@ input {
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
+  margin-bottom: 23px;
 }
 
 .product-item {
