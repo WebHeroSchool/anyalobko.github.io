@@ -280,8 +280,6 @@ input {
   }
 }
 
-
-
 @media only screen and (max-width: 786px) {
   .wrapper { width: 100%; }
 
@@ -321,6 +319,7 @@ input {
     width: 82%;
     margin: auto;
     justify-content: space-between;
+    margin-bottom: 15px;
   }
 
   .products__title {
@@ -362,6 +361,41 @@ input {
   .product-item__color-big {
     display: inline-block;
     float: right;
+  }
+
+  .mission {
+    flex-direction: column-reverse;
+    padding-top: 35px;
+    height: 640px;
+    transform: skew(0deg, 3deg) translateY(16px);
+  }
+
+  .mission__video,
+  .mission__text {
+    width: 90%;
+    text-align: center;
+    transform: skew(0deg, -3deg);
+  }
+
+  .mission__text {
+    height: 137px;
+    padding-top: 50px;
+    margin-left: 0;
+  }
+
+  .mission__title {
+    font-size: 30px;
+    margin: 44px 0 25px;
+  }
+
+  .mission__description {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: -4px;
+  }
+
+  .mission__link {
+    display: none;
   }
 }
 
