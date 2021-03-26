@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'GothamPro';
   src: url('fonts/GothamPro-Regular/GothamPro.eot');
-  src: 
+  src:
       url('fonts/GothamPro-Regular/GothamPro.eot?#iefix') format('embedded-opentype'),
       url('fonts/GothamPro-Regular/GothamPro.woff2') format('woff2'),
       url('fonts/GothamPro-Regular/GothamPro.woff') format('woff'),
@@ -21,5 +21,5 @@
        url('fonts/GothamPro-Bold/GothamPro-Bold.woff') format('woff'),
        url('fonts/GothamPro-Bold/GothamPro-Bold.ttf') format('truetype');
        font-weight: 700;
-       font-style: normal;  
+       font-style: normal;
 }
