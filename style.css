@@ -88,8 +88,8 @@ input {
 
 .header__item:last-child,
 .header__right:last-child {
-  margin-right: 0; 
-  padding-right: 0 
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .header_icon-flag {
@@ -124,7 +124,7 @@ input {
 
 .image__arrow { justify-content: center; }
 
-.products { 
+.products {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -143,7 +143,7 @@ input {
   height: 173px;
 }
 
-.products__title { 
+.products__title {
   font-size: 22px;
   margin-bottom: 10px;
   text-align: center;
@@ -154,7 +154,7 @@ input {
   margin-top: 42px;
 }
 
-.product-item__subtitle{
+.product-item__subtitle {
   font-size: 12px;
   font-weight: 300;
   text-align: left;
@@ -182,7 +182,7 @@ input {
   margin-bottom: 80px;
 }
 
-.mission__video {  margin: 70px 33px; }
+.mission__video { margin: 70px 33px; }
 
 .mission__text {
   display: flex;
@@ -201,7 +201,7 @@ input {
   margin: 0;
 }
 
-.mission__title { 
+.mission__title {
   font-size: 22px;
   line-height: 28px;
 }
@@ -268,7 +268,7 @@ input {
 
 .blog__date {
   float: right;
-  color: #000000;
+  color: #000;
   opacity: 0.3;
 }
 
@@ -292,7 +292,7 @@ input {
   margin-right: -1px;
 }
 
-.gallery__img-hide {  display: none; }
+.gallery__img-hide { display: none; }
 
 .footer {
   text-align: center;
@@ -347,14 +347,14 @@ input {
 
 .footer__button {
   background-color: #000;
-  opacity: 100%; 
+  opacity: 100%;
   font-size: 10px;
   color: #fff;
   font-family: 'GothamPro';
   font-weight: 700;
   width: 138px;
   height: 30px;
-  margin: 10px 0px;
+  margin: 10px 0;
   padding: 10px;
   border: #fff solid 2px;
 }
@@ -371,10 +371,9 @@ input {
   text-align: center;
 }
 
-
 @media only screen and (max-width: 1024px) {
   .wrapper { width: 91%; }
-  
+
   .header { margin-bottom: 21px; }
 
   .header__logo {
@@ -383,7 +382,7 @@ input {
     margin-right: 30px;
   }
 
-  .header__menu { padding-right: 0px; }
+  .header__menu { padding-right: 0; }
 
   input { width: 140px; }
 
@@ -492,7 +491,7 @@ input {
     padding-bottom: 53px;
   }
 
-  .footer__button { margin-left: 0px; }
+  .footer__button { margin-left: 0; }
 }
 
 @media only screen and (max-width: 786px) {
@@ -504,7 +503,7 @@ input {
 
   .burger__logo2 { display: block; }
 
-  .image { 
+  .image {
     height: 417px;
     background-position: 17%;
     background-size: cover;
@@ -620,7 +619,7 @@ input {
     background-color: #000;
     transform: skew(0deg, 3deg) translateY(16px);
     padding-bottom: 144px;
-    }
+  }
 
   .blog,
   .blog__title {
@@ -630,7 +629,10 @@ input {
     transform: skew(0deg, -3deg);
   }
 
-  .blog__title { margin-bottom: 42px; }
+  .blog__title {
+    margin-bottom: 42px;
+    font-size: 30px; 
+  }
 
   .blog__entry-hide1 { display: none; }
 
@@ -646,8 +648,6 @@ input {
   }
 
   .blog__text { height: 286px; }
-
-  .blog__title { font-size: 30px; }
 
   .blog__subtitle {
     font-size: 25px;
@@ -696,7 +696,7 @@ input {
   .gallery__subtitle {
     margin: 0;
     font-size: 30px;
-    color:#fff; 
+    color: #fff;
     padding: 0 44px 12px 40px;
   }
 
@@ -807,8 +807,6 @@ input {
     font-size: 12px;
     padding-top: 20px;
   }
-
-  .image__arrow { width: 45px; }
 
   .product-item__hide-1 { display: none; }
 
@@ -942,7 +940,7 @@ input {
   }
 
   .gallery__img-hide,
-  .gallery__img-hide2 { 
+  .gallery__img-hide2 {
     display: none;
   }
 
@@ -963,7 +961,7 @@ input {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 37px;
     padding-bottom: 26px;
   }
@@ -1004,7 +1002,7 @@ input {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    align-items: center
+    align-items: center;
   }
 
   .footer__button {
@@ -1026,8 +1024,7 @@ input {
     height: 21px;
   }
 
-  .footer__copyright { letter-spacing: .5px; }
-
+  .footer__copyright { letter-spacing: 0.5px; }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1035,8 +1032,8 @@ input {
 
   .image { background-position: 24%; }
 
-  .image__title,
-  .image__link { padding-left: 20px;}
+  .image__link,
+  .image__title { padding-left: 20px; }
 
   .products { width: 88%; }
 
@@ -1106,10 +1103,8 @@ input {
     order: 6;
   }
 
-  .hide, 
-  .gallery__img-hide {
-   display: none;   
-  }
+  .hide,
+  .gallery__img-hide { display: none; }
 
   .footer__wrapper {
     padding-top: 37px;
