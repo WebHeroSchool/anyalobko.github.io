@@ -578,7 +578,6 @@ input {
   .product-item__color { display: none; }
 
   .product-item__color-big {
-    display: inline-block;
     float: right;
   }
 
@@ -859,7 +858,7 @@ input {
 
   .mission__video {
     width: 76%;
-    margin: 35px 42px;ß
+    margin: 35px 42px;
   }
 
   .mission__text {
@@ -900,7 +899,6 @@ input {
   .blog__img {
     width: 279px;
     height: 149px;
-    margin-bottom: ;
   }
 
   .blog__text { height: 185px; }
