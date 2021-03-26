@@ -19,7 +19,7 @@ body { margin: 0; }
 .header__menu {
   display: flex;
   align-items: center;
-  padding-right: 130px;
+  padding-right: 190px;
 }
 
 .burger__logo2,
@@ -280,10 +280,10 @@ input {
 }
 
 .gallery {
+  grid-template-columns: repeat(7, 1fr);
   width: 100%;
   display: grid;
   margin: -10px 0 79px;
-  grid-template-columns: repeat(7, 1fr);
 }
 
 .gallery__img {
