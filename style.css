@@ -280,10 +280,12 @@ input {
 }
 
 .gallery {
-  grid-template-columns: repeat(7, 1fr);
+  /* grid-template-columns: repeat(7, 1fr); */
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
   width: 100%;
   display: grid;
   margin: -10px 0 79px;
+  gap: 3px;
 }
 
 .gallery__img {
