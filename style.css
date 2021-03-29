@@ -695,7 +695,7 @@ input {
     margin-bottom: -1px;
   }
 
-  .blog__link .image__arrow { display: none;}
+  .blog__link .image__arrow { display: none; }
 
   .blog__link .image__arrow-3 {
     width: 47px;
@@ -952,7 +952,7 @@ input {
   .blog__wrap { padding-bottom: 0; }
 
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
     width: 75%;
   }
 
