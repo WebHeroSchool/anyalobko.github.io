@@ -825,15 +825,19 @@ input {
     margin: 24px 47px;
   }
 
-  .header__burger { height: 47px; }
+  .header__burger { height: 48px; }
 
   .image {
-    height: 192px;
+    height: 191px;
     background-position: 19%;
     margin-bottom: 38px;
   }
 
-  .image .image__arrow { margin-left: 3px; }
+  .image .image__arrow {
+    margin-left: 0;
+    padding-left: 2px;
+    width: 48px;
+  }
 
   .image__title,
   .image__link {
@@ -878,6 +882,8 @@ input {
   .product-item__subtitle {
     font-size: 15px;
     margin-bottom: 7px;
+    margin-top: 0;
+    padding-top: 17px;
   }
 
   .product-item__price {
@@ -899,14 +905,16 @@ input {
 
   .mission__video {
     width: 76%;
-    margin: 35px 42px;
+    margin: 0 35px 34px;
   }
 
   .mission__text {
-    height: 145px;;
+    height: 139px;
     margin-left: 0;
     width: 75%;
     padding-top: 0;
+    margin: 0 0 39px;
+    padding-left: 2px;
   }
 
   .mission__title {
@@ -915,6 +923,7 @@ input {
     line-height: 25px;
     padding-top: 0;
     padding-left: 9px;
+    margin: 0 0 17px;
   }
 
   .mission__description {
@@ -942,9 +951,10 @@ input {
   .blog__img {
     width: 279px;
     height: 149px;
+    margin-bottom: 27px;
   }
 
-  .blog__text { height: 185px; }
+  .blog__text { height: 187px; }
 
   .blog__description {
     font-size: 14px;
@@ -954,20 +964,22 @@ input {
   .blog__link {
     font-size: 12px;
     margin-left: -2px;
+    justify-content: stretch;
   }
 
   .blog__link .image__arrow { display: none; }
 
   .blog__link .image__arrow-3 {
     width: 40px;
-    padding-left: 0px;
-    padding-top: 2px;
+    padding-left: 15px;
+    padding-bottom: 2px;
   }
 
   .blog__date {
     font-size: 15px;
     color: #fff;
     font-weight: 600;
+    padding-left: 62px;
   }
 
   .blog__wrap { padding-bottom: 0; }
