@@ -1119,26 +1119,28 @@ input {
 
   .products { width: 88%; }
 
-  .mission { padding-top: 71px; }
+  .mission { padding: 95px 0 42px; }
 
   .mission__title {
     width: auto;
-    padding: 0 30px 18px;
     margin: 0 auto;
+    padding: 5px 31px 15px;
   }
 
   .mission__video {
     width: 89%;
+    margin: 0 35px 59px;
   }
 
   .mission__text {
     width: 89%;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 46px;
   }
 
   .mission__description {
     line-height: 18px;
+    padding-left: 0;
   }
 
   .blog {
@@ -1149,18 +1151,19 @@ input {
     margin-bottom: 26px;
   }
 
+  .blog__description { padding-bottom: 7px; }
+
   .blog__title {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
   }
 
   .blog__link {
-    margin-bottom: -3px;
-    margin-left: -1px;
+    justify-content: space-between;
   }
 
   .image__arrow-3 {
     width: 42px;
-    margin-left: -54px;
+    padding-bottom: 4px;
   }
 
   .gallery__subtitle {
@@ -1193,5 +1196,5 @@ input {
     height: 237px;
   }
 
-  .discount { margin: 15px 10px 20px; }
+  .discount { margin: 13px 10px 20px; }
 }
