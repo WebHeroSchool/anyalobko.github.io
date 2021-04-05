@@ -405,7 +405,9 @@ input {
 @media only screen and (max-width: 1024px) {
   .wrapper { width: 91%; }
 
-  .header { margin-bottom: 21px; }
+  .header {
+    padding-bottom: 22px;
+  }
 
   .header__logo {
     width: 61px;
@@ -415,9 +417,7 @@ input {
 
   .header__menu { padding-right: 0; }
 
-  .header__controls { width: 40%; }
-
-  input { width: 140px; }
+  input { width: 136px; }
 
   .header__search { padding-right: 3px; }
 
@@ -429,15 +429,18 @@ input {
 
   .image {
     height: 253px;
-    margin-bottom: 70px;
+    margin-bottom: 68px;
+    background-position: 17%;
+    background-size: cover;
   }
 
   .image__title,
   .image__link {
     padding-left: 55px;
+    padding-top: 10px;
   }
 
-  .image__title { margin: 10px 0 10px 0; }
+  .image__title { margin: 0; }
 
   .image__arrow { padding-left: 11px; }
 
@@ -471,12 +474,13 @@ input {
 
   .mission__video {
     width: 62%;
-    margin: 60px 32px;
+    margin: 0 32px;
   }
 
   .mission__text {
     width: 27%;
     height: 170px;
+    padding-left: 6px;
   }
 
   .mission__description {
@@ -494,7 +498,8 @@ input {
 
   .blog__img {
     width: 278px;
-    height: 147px;
+    height: 148px;
+    margin-bottom: 29px;
   }
 
   .blog__subtitle { font-size: 18px; }
@@ -510,9 +515,12 @@ input {
 
   .blog__link .image__arrow { padding-left: 0px; }
 
-  .gallery { margin-bottom: 94px; }
+  .gallery {
+    margin-bottom: 94px;
+    gap: 2px;
+  }
 
-  .gallery__subtitle { margin-bottom: 19px; }
+  .gallery__subtitle { margin-bottom: 20px; }
 
   .gallery__img {
     width: 134px;
@@ -544,21 +552,22 @@ input {
   .image__title,
   .image__link {
     padding-left: 44px;
+    padding-top: 43px;
   }
 
   .image__title {
     font-size: 50px;
     line-height: 48px;
-    margin: 40px 0 35px 0;
+    margin-bottom: 2px;
   }
 
   .image__link {
     font-size: 20px;
-    padding-top: 10px;
   }
 
-  .image__arrow-3 {
-    margin-left: -50px;
+  .image__arrow {
+    padding-left: 5px;
+    width: 72px;
   }
 
   .divider,
@@ -626,12 +635,13 @@ input {
     width: 696px;
     text-align: center;
     transform: skew(0deg, -3deg);
+    margin-bottom: 61px;
   }
 
   .mission__text {
     height: 136px;
     padding-top: 50px;
-    margin-left: 0;
+    margin: 0 0 59px;
   }
 
   .mission__title {
@@ -650,7 +660,7 @@ input {
   .blog__wrap {
     background-color: #000;
     transform: skew(0deg, 3deg) translateY(16px);
-    padding-bottom: 144px;
+    padding-bottom: 146px;
   }
 
   .blog,
@@ -662,7 +672,7 @@ input {
   }
 
   .blog__title {
-    margin-bottom: 41px;
+    margin-bottom: 40px;
     font-size: 30px;
   }
 
@@ -675,11 +685,11 @@ input {
 
   .blog__img {
     width: 312px;
-    height: 166px;
-    margin-bottom: 28px;
+    height: 167px;
+    margin-bottom: 29px;
   }
 
-  .blog__text { height: 288px; }
+  .blog__text { height: 287px; }
 
   .blog__subtitle {
     font-size: 25px;
@@ -699,18 +709,18 @@ input {
     color: #d1d1d1;
     opacity: 1;
     margin-right: 2px;
+    padding-left: 34px;
   }
 
   .blog__link {
-    margin-left: 1px;
-    margin-bottom: -1px;
+    justify-content: stretch;
   }
 
   .blog__link .image__arrow { display: none; }
 
   .blog__link .image__arrow-3 {
     width: 47px;
-    padding-left: 24px;
+    padding-left: 14px;
   }
 
   .gallery__img-hide { display: block; }
