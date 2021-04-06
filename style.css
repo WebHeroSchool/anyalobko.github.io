@@ -569,7 +569,7 @@ input {
     z-index: 1;
   }
 
-/* burger styles */
+  /* burger styles */
   .burger__button > span::before,
   .burger__button > span::after {
     background-color: #000;
@@ -578,7 +578,7 @@ input {
     height: 9px;
     width: 100%;
   }
-  
+
   .burger__button > span::before {
     content: ' ';
     top: -8px;
@@ -588,7 +588,7 @@ input {
     content: ' ';
     top: 8px;
   }
-  
+
   .image {
     height: 417px;
     background-position: 17%;
