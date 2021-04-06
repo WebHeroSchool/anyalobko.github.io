@@ -43,7 +43,7 @@ li,
 #burger__switch { opacity: 0; }
 
 .burger__nav {
-  visibility: hidden ;
+  visibility: hidden;
   position: fixed;
   background: white;
   width: 100%;
@@ -567,17 +567,6 @@ input {
     height: 25px;
     cursor: pointer;
     z-index: 1;
-
-    /* animated burger menu button */
-    animation:
-    stretch
-    1s
-    ease-out
-    0s
-    alternate
-    infinite
-    none
-    running;
   }
 
 /* burger styles */
@@ -590,7 +579,7 @@ input {
     width: 100%;
   }
   
-  .burger__button > span::before{
+  .burger__button > span::before {
     content: ' ';
     top: -8px;
   }
@@ -599,7 +588,7 @@ input {
     content: ' ';
     top: 8px;
   }
-
+  
   .image {
     height: 417px;
     background-position: 17%;
