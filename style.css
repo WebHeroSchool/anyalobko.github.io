@@ -42,6 +42,21 @@ li,
 
 #burger__switch { opacity: 0; }
 
+.burger__nav {
+  visibility: hidden ;
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  margin: 0;
+  padding: 186px 0;
+}
+
 .burger__logo2 {
   width: 157px;
   height: 35px;
@@ -542,6 +557,49 @@ input {
 
   .burger__logo2 { display: block; }
 
+  .burger__button {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 55px;
+    right: 52px;
+    width: 61px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1;
+
+    /* animated burger menu button */
+    animation:
+    stretch
+    1s
+    ease-out
+    0s
+    alternate
+    infinite
+    none
+    running;
+  }
+
+/* burger styles */
+  .burger__button > span::before,
+  .burger__button > span::after {
+    background-color: #000;
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+  }
+  
+  .burger__button > span::before{
+    content: ' ';
+    top: -8px;
+  }
+
+  .burger__button > span::after {
+    content: ' ';
+    top: 8px;
+  }
+
   .image {
     height: 417px;
     background-position: 17%;
@@ -632,7 +690,7 @@ input {
 
   .mission__video,
   .mission__text {
-    width: 696px;
+    width: 90%;
     text-align: center;
     transform: skew(0deg, -3deg);
     margin-bottom: 61px;
@@ -641,7 +699,7 @@ input {
   .mission__text {
     height: 136px;
     padding-top: 50px;
-    margin: 0 0 59px;
+    margin: 0 0 60px;
   }
 
   .mission__title {
@@ -826,6 +884,22 @@ input {
   }
 
   .header__burger { height: 48px; }
+
+  .burger__button {
+    top: 36px;
+    right: 47px;
+    width: 41px;
+    height: 15px;
+  }
+
+  .burger__button > span::before,
+  .burger__button > span::after {
+    height: 5px;
+  }
+
+  .burger__button > span::after {
+    top: 2px;
+  }
 
   .image {
     height: 191px;
