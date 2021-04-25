@@ -507,7 +507,7 @@ input {
   .mission__text {
     width: 27%;
     height: 39%;
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .mission__title {
@@ -876,7 +876,7 @@ input {
   }
 
   .footer__item {
-    padding-top: 1px;
+    padding-top: 0;
     font-weight: 300;
   }
 
@@ -892,8 +892,6 @@ input {
     margin: 9px -3px 5px;
     padding: 8px;
   }
-
-  .footer__item { padding-top: 0; }
 
   .social {
     width: 75%;
