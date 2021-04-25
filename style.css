@@ -1,22 +1,1314 @@
-html {
-  font-family: 'GothamPro-Regular';
-}
+html { font-family: 'GothamPro', sans-serif; }
 
-body {
-  margin: 0;
-}
+body { margin: 0; }
 
 .wrapper {
   margin: auto;
   width: 88%;
 }
 
+a,
+li,
+.header__logo,
+.burger__logo2,
+.footer__button,
+.image__arrow,
+.social__icon,
+.image__arrow-2,
+.image__arrow-3,
+.header__icon-flag,
+.header__icon-search { cursor: pointer; }
+
 .header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  margin: 0;
   height: 55px;
-  margin-top: 32px;
-  font-family: 'GothamPro-Bold';
+  padding: 32px 0 8px;
+}
+
+.header__logo { margin-right: 45px; }
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  padding-right: 170px;
+}
+
+.burger__logo2,
+.burger__button {
+  display: none;
+}
+
+#burger__switch { opacity: 0; }
+
+.burger__nav {
+  visibility: hidden;
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  list-style: none;
+  text-align: center;
+  margin: auto;
+  margin: 0;
+  padding: 186px 0;
+}
+
+.burger__logo2 {
+  width: 157px;
+  height: 35px;
+  margin: 41px;
+  padding-left: 1px;
+}
+
+.nav { display: inline-block; }
+
+a,
+.product-item__price {
+  text-decoration: none;
+  font-weight: 700;
   font-size: 12px;
+  transition: color 0.1s ease-in;
+}
+
+a:hover { color: #f85a28; }
+
+.header__item,
+.header__right {
+  color: #000;
+}
+
+.header__item { padding-right: 35px; }
+
+.header__controls {
+  width: 39%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  padding-left: 0;
+  width: 153px;
+  border: none;
+}
+
+.header__icon-search {
+  width: 14px;
+  height: 14px;
+}
+
+.header__search {
+  border-bottom: solid 1px #000;
+  padding-top: 5px;
+}
+
+.header__right-bucket {
+  width: 55px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item:last-child,
+.header__right:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.header_icon-flag {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.image > * { color: #fff; }
+
+.image {
+  background: url(images/legendary_footwear.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 281px;
+  margin-bottom: 53px;
+}
+
+.image__link,
+.image__title {
+  padding-left: 60px;
+}
+
+.image__title {
+  font-size: 30px;
+  width: 18%;
+  line-height: 29px;
+  margin: 15px 0 15px 0;
+}
+
+.image__arrow { justify-content: center; }
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.product-item {
+  width: 23%;
+}
+
+.product-item__img {
+  width: 77%;
+  margin-bottom: 8px;
+}
+
+.products__title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.divider {
+  height: 101px;
+  padding-top: 42px;
+}
+
+.product-item__subtitle {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.product-item__price {
+  font-size: 14px;
+  width: 206px;
+  transition: none;
+  float: left;
+  text-align: left;
+}
+
+.product-item__subtitle,
+.product-item__price {
+  padding-left: 10px;
+}
+
+.product-item__hide .product-item__price,
+.product-item__hide .product-item__subtitle,
+.product-item__hide-1 .product-item__price,
+.product-item__hide-1 .product-item__subtitle {
+  padding-left: 15px;
+}
+
+.product-item__color-big { display: none; }
+
+.product-item__color { float: right; }
+
+.mission {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 81px;
+}
+
+.mission__video {
+  margin: 0 42px 0 33px;
+  padding: 67px 0 66px;
+}
+
+.mission__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 26%;
+}
+
+.mission__title,
+.mission__description,
+.mission__link {
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+}
+
+.mission__title {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.mission__description {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+}
+
+.image__arrow-2 {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.blog__title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 97px;
+}
+
+.blog__img {
+  margin-bottom: 29px;
+  width: 100%;
+}
+
+.blog__entry {
+  width: 30%;
+}
+
+.blog__text {
+  height: 50%;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog__subtitle {
+  font-size: 18px;
+  margin: 0;
+}
+
+.blog__description {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.blog__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog__link .image__arrow { margin-left: -29px; }
+
+.blog__date {
+  float: right;
+  color: #000;
+  opacity: 0.3;
+}
+
+.gallery__subtitle {
+  font-size: 18px;
+  text-align: right;
+  color: #000;
+  opacity: 0.3;
+  margin-bottom: 8px;
+}
+
+.gallery {
+  grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+  width: 100%;
+  display: grid;
+  margin: 0 0 80px;
+  gap: 3px;
+}
+
+.gallery__img {
+  width: 102%;
+  height: 101%;
+}
+
+.gallery__img-hide { display: none; }
+
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 296px;
+  color: #fff;
+  background-color: #000;
+}
+
+.footer__wrapper {
+  width: 66%;
+  margin: 0 auto;
+  padding: 68px 69px 53px 69px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 7px;
+}
+
+.footer__menu {
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__list {
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#number1 {
+  height: 87%;
+}
+
+#number4 {
+  display: block;
+  text-align: left;
+}
+
+.footer__title {
+  margin: 0;
+  font-size: 12px;
+}
+
+.spacer { margin-bottom: 3px; }
+
+.footer__item,
+.footer__copyright {
+  list-style: none;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.discount {
+  width: 175px;
+  margin: 0;
+}
+
+.footer__button {
+  background-color: #000;
+  opacity: 100%;
+  font-size: 10px;
+  color: #fff;
+  font-family: 'GothamPro', sans-serif;
+  font-weight: 700;
+  width: 138px;
+  height: 30px;
+  margin: 10px 0;
+  padding: 10px;
+  border: #fff solid 2px;
+}
+
+.footer__button:hover {
+  color: #f85a28;
+  border-color: #f85a28;
+}
+
+.social {
+  width: 137px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 3px 0 0;
+}
+
+.footer__copyright {
+  margin: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper { width: 91%; }
+
+  .header {
+    padding-bottom: 22px;
+  }
+
+  .header__logo {
+    width: 61px;
+    height: 61px;
+    margin-right: 30px;
+  }
+
+  .header__menu { padding-right: 0; }
+
+  input { width: 136px; }
+
+  .header__search { padding-right: 3px; }
+
+  .header__right { padding-left: 12px; }
+
+  .header__right-bucket { margin-right: -5px; }
+
+  .header__icon-flag { padding-left: 10px; }
+
+  .image {
+    height: 253px;
+    margin-bottom: 68px;
+    background-position: 17%;
+    background-size: cover;
+  }
+
+  .image__title,
+  .image__link {
+    padding-left: 55px;
+    padding-top: 10px;
+  }
+
+  .image__title { margin: 0; }
+
+  .image__arrow { padding-left: 11px; }
+
+  .products {
+    margin-bottom: 78px;
+  }
+
+  .products__title {
+    margin-bottom: 17px;
+  }
+
+  .product-item {
+    padding-left: 0;
+  }
+
+  .product-item__img { width: 78%; }
+
+  .product-item__subtitle {
+    padding-top: 7px;
+    margin-bottom: 8px;
+  }
+
+  .product-item__price,
+  .product-item__subtitle {
+    padding-left: 11px;
+  }
+
+  .product-item__price { width: 188px; }
+
+  .mission {
+    margin-bottom: 96px;
+  }
+
+  .mission__video {
+    width: 62%;
+    margin: 0 37px 0 32px;
+    padding: 59px 0 58px;
+  }
+
+  .mission__text {
+    width: 27%;
+    height: 39%;
+    padding-top: 0;
+  }
+
+  .mission__title {
+    margin-bottom: 7px;
+  }
+
+  .mission__description {
+    font-size: 13px;
+    margin: 0;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+
+  .mission__link {
+    align-items: center;
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .image__arrow-2 {
+    padding-left: 17px;
+    padding-top: 0;
+  }
+
+  .blog { margin-bottom: 119px; }
+
+  .blog__img {
+    height: 48%;
+    margin-bottom: 29px;
+  }
+
+  .blog__text {
+    height: 52%;
+  }
+
+  .blog__title {
+    margin-bottom: 41px;
+  }
+
+  .blog__subtitle { font-size: 18px; }
+
+  .blog__description {
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+  }
+
+  .blog__link { font-size: 12px; }
+
+  .blog__link .image__arrow { padding-left: 0; }
+
+  .gallery {
+    margin-bottom: 91px;
+    gap: 2px;
+  }
+
+  .gallery__subtitle { margin-bottom: 10px; }
+
+  .gallery__img {
+    width: 104%;
+    height: 98%;
+  }
+
+  .footer__wrapper {
+    width: 75%;
+    padding-bottom: 53px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .wrapper {
+    width: 100%;
+    margin-bottom: 332px;
+  }
+
+  .header { display: none; }
+
+  .header__burger { height: 71px; }
+
+  .burger__logo2 { display: block; }
+
+  .burger__button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 55px;
+    right: 44px;
+    width: 61px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  /* burger styles */
+  .burger__button > span::before,
+  .burger__button > span::after {
+    background-color: #000;
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+  }
+
+  .burger__button > span::before {
+    content: ' ';
+    top: -8px;
+  }
+
+  .burger__button > span::after {
+    content: ' ';
+    top: 8px;
+  }
+
+  .image {
+    height: 417px;
+    background-position: 17%;
+    background-size: cover;
+    margin-bottom: 67px;
+  }
+
+  .image__title,
+  .image__link {
+    padding-left: 44px;
+    padding-top: 43px;
+  }
+
+  .image__title {
+    font-size: 50px;
+    line-height: 48px;
+    margin-bottom: 2px;
+  }
+
+  .image__link {
+    font-size: 20px;
+  }
+
+  .image__arrow {
+    padding-left: 5px;
+    width: 72px;
+  }
+
+  .divider,
+  .product-item__hide {
+    display: none;
+  }
+
+  .products {
+    width: 82%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .products__title {
+    font-size: 30px;
+    margin-right: 14px;
+    margin-bottom: 20px;
+  }
+
+  .product-item {
+    width: 45%;
+  }
+
+  .product-item__img {
+    width: 81%;
+    margin-bottom: 0;
+  }
+
+  .product-item__subtitle {
+    font-size: 20px;
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .product-item__subtitle,
+  .product-item__price {
+    padding-left: 15px;
+  }
+
+  .product-item__price {
+    font-size: 25px;
+    width: 256px;
+  }
+
+  .product-item__color { display: none; }
+
+  .product-item__color-big {
+    display: block;
+    float: right;
+  }
+
+  .mission {
+    flex-direction: column-reverse;
+    padding-bottom: 49px;
+    margin-bottom: 0;
+    transform: skew(0deg, 3deg) translateY(17px);
+  }
+
+  .mission__video,
+  .mission__text {
+    width: 91%;
+    text-align: center;
+    transform: skew(0deg, -3deg);
+    margin: 0;
+  }
+
+  .mission__video {
+    padding: 29px 0 59px;
+  }
+
+  .mission__text {
+    padding-top: 75px;
+  }
+
+  .mission__title {
+    font-size: 30px;
+    margin: 0 0 18px;
+  }
+
+  .mission__description {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+
+  .mission__link { display: none; }
+
+  .blog__wrap {
+    background-color: #000;
+    transform: skew(0deg, 3deg) translateY(16px);
+    padding-bottom: 156px;
+  }
+
+  .blog,
+  .blog__title {
+    width: 89%;
+    margin: auto;
+    color: #fff;
+    transform: skew(0deg, -3deg);
+  }
+
+  .blog__title {
+    margin-bottom: 41px;
+    font-size: 30px;
+  }
+
+  .blog__entry-hide1 { display: none; }
+
+  .blog__entry {
+    width: 46%;
+  }
+
+  .blog__img {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 29px;
+  }
+
+  .blog__text {
+    height: 35%;
+    width: 100%;
+  }
+
+  .blog__subtitle {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .blog__description,
+  .blog__link {
+    font-size: 20px;
+  }
+
+  .blog__description {
+    line-height: 25px;
+    padding-bottom: 36px;
+    padding-right: 2px;
+  }
+
+  .blog__date {
+    font-size: 15px;
+    font-weight: 300;
+    color: #d1d1d1;
+    opacity: 1;
+    margin-right: 2px;
+    padding-left: 34px;
+  }
+
+  .blog__link {
+    justify-content: stretch;
+  }
+
+  .blog__link .image__arrow { display: none; }
+
+  .blog__link .image__arrow-3 {
+    width: 15%;
+    padding-left: 15px;
+  }
+
+  .gallery__img-hide { display: block; }
+
+  .gallery__wrap {
+    height: 28px;
+    background-color: #000;
+    transform: skew(0deg, 3deg);
+    padding-bottom: 145px;
+  }
+
+  .gallery,
+  .gallery__subtitle {
+    transform: skew(0deg, -3deg);
+  }
+
+  .gallery__subtitle {
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+    padding: 0 44px 12px 40px;
+  }
+
+  .gallery {
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 88%;
+    margin: auto;
+    gap: 0;
+  }
+
+  .gallery__img {
+    width: 101%;
+    height: 100%;
+  }
+
+  .footer__wrapper {
+    width: 88%;
+    padding: 59px 50px 72px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__menu { margin: 0; }
+
+  .footer__title { margin: 0 0 4px; }
+
+  .footer__list {
+    display: flex;
+    height: 125px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #number1 {
+    width: 13%;
+  }
+
+  #number2 {
+    width: 19%;
+  }
+
+  #number3 {
+    width: 20%;
+  }
+
+  #number4 {
+    width: 23%;
+  }
+
+  .footer__item {
+    padding-top: 0;
+    font-weight: 300;
+  }
+
+  .discount {
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 13px;
+  }
+
+  .footer__button {
+    width: 94%;
+    height: 26px;
+    margin: 9px -3px 5px;
+    padding: 8px;
+  }
+
+  .social {
+    width: 75%;
+    padding-top: 23px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .burger__logo2 {
+    width: 28%;
+    height: 22px;
+    margin: 24px 47px;
+  }
+
+  .header__burger { height: 48px; }
+
+  .burger__button {
+    top: 36px;
+    right: 47px;
+    width: 41px;
+    height: 15px;
+  }
+
+  .burger__button > span::before,
+  .burger__button > span::after {
+    height: 5px;
+  }
+
+  .burger__button > span::after {
+    top: 2px;
+  }
+
+  .image {
+    height: 191px;
+    background-position: 19%;
+    margin-bottom: 38px;
+  }
+
+  .image .image__arrow {
+    margin-left: 0;
+    padding-left: 2px;
+    width: 39%;
+  }
+
+  .image__title,
+  .image__link {
+    padding-left: 48px;
+  }
+
+  .image__title {
+    font-size: 20px;
+    line-height: 19px;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  .image__link {
+    font-size: 12px;
+    padding-top: 20px;
+    width: 35%;
+  }
+
+  .product-item__hide-1 { display: none; }
+
+  .products {
+    width: 75%;
+    margin-bottom: 50px;
+  }
+
+  .products__title {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .product-item {
+    width: 100%;
+  }
+
+  .product-item__img {
+    width: 58%;
+    height: 69%;
+  }
+
+  .product-item__subtitle {
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-top: 0;
+    padding-top: 17px;
+  }
+
+  .product-item__price {
+    font-size: 20px;
+    width: 270px;
+  }
+
+  .product-item__color-big {
+    width: 82px;
+    height: 23px;
+    padding-top: 2px;
+  }
+
+  .mission {
+    padding-top: 36px;
+    padding-bottom: 68px;
+  }
+
+  .mission__video {
+    width: 76%;
+    margin: 0 35px 34px;
+    padding: 0;
+  }
+
+  .mission__text {
+    height: 139px;
+    width: 75%;
+    padding-top: 0;
+    margin: 0 0 39px;
+    padding-left: 2px;
+  }
+
+  .mission__title {
+    font-size: 20px;
+    width: 257px;
+    line-height: 25px;
+    padding-top: 0;
+    padding-left: 9px;
+    margin: 0 0 17px;
+  }
+
+  .mission__description {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 30px;
+  }
+
+  .blog { width: 74%; }
+
+  .blog__title {
+    width: 185px;
+    margin-bottom: 26px;
+  }
+
+  .blog__entry-hide2 { display: none; }
+
+  .blog__entry {
+    width: 100%;
+    padding-bottom: 132px;
+  }
+
+  .blog__title,
+  .blog__subtitle {
+    font-size: 20px;
+  }
+
+  .blog__img {
+    width: 100%;
+    height: 42%;
+    margin-bottom: 27px;
+  }
+
+  .blog__description {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 24px;
+  }
+
+  .blog__link {
+    font-size: 12px;
+  }
+
+  .blog__link .image__arrow { display: none; }
+
+  .blog__link .image__arrow-3 {
+    width: 40px;
+    padding-left: 15px;
+    padding-bottom: 2px;
+  }
+
+  .blog__date {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 61px;
+    margin-right: 0;
+  }
+
+  .blog__wrap { padding-bottom: 0; }
+
+  .gallery {
+    grid-template-columns: 50% 50%;
+    width: 75%;
+  }
+
+  .gallery__wrap { padding-bottom: 238px; }
+
+  .gallery__subtitle {
+    font-size: 25px;
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    margin: 2px 0 -3px 11px;
+  }
+
+  .gallery__img-hide,
+  .gallery__img-hide2 {
+    display: none;
+  }
+
+  .gallery__img {
+    width: 100%;
+  }
+
+  .gallery__img-hide2 {
+    display: block;
+  }
+
+  .a {
+    order: 5;
+  }
+
+  .b {
+    order: 6;
+  }
+
+  .hide,
+  .gallery__img-hide { display: none; }
+
+  .wrapper { margin-bottom: 272px; }
+
+  .footer {
+    height: 898px;
+  }
+
+  .footer__wrapper {
+    width: 45%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 37px;
+    padding-bottom: 23px;
+  }
+
+  .footer__menu {
+    align-items: center;
+    justify-content: space-between;
+    line-height: 17px;
+    height: 85%;
+  }
+
+  .footer__list {
+    align-items: center;
+  }
+
+  .footer__title,
+  .footer__item {
+    font-size: 15px;
+    margin: 0;
+    line-height: 14px;
+  }
+
+  #number1 {
+    order: 1;
+    width: 64%;
+    height: 17%;
+  }
+
+  #number2 {
+    order: 2;
+    width: 86%;
+    height: 17%;
+  }
+
+  #number3 {
+    order: 3;
+    width: 100%;
+    height: 18%;
+  }
+
+  #number4 {
+    order: 4;
+    width: 105%;
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer__button {
+    width: 150px;
+    height: 37px;
+    font-size: 12px;
+    margin: 0 1px 80px;
+    padding: 13px;
+  }
+
+  .discount {
+    margin: 10px 10px 20px;
+    width: 95%;
+    letter-spacing: 0;
+  }
+
+  .social {
+    width: 94%;
+    height: 21px;
+    padding-top: 25px;
+  }
+
+  .footer__copyright { letter-spacing: 0.5px; }
+}
+
+@media only screen and (max-width: 320px) {
+  .burger__logo2 {
+    margin: 24px 20px;
+    width: 32%;
+  }
+
+  .burger__button {
+    right: 21px;
+  }
+
+  .image { background-position: 24%; }
+
+  .image__link,
+  .image__title { padding-left: 20px; }
+
+  .image__link { width: 40%; }
+
+  .products { width: 88%; }
+
+  .mission { padding: 36px 0 42px; }
+
+  .mission__title {
+    width: 91%;
+    margin: 0 0 14px;
+    padding-left: 0;
+  }
+
+  .mission__video {
+    width: 89%;
+    margin: 0 35px 59px;
+  }
+
+  .mission__text {
+    width: 89%;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 0;
+  }
+
+  .mission__description {
+    line-height: 18px;
+    padding-left: 0;
+  }
+
+  .blog {
+    width: 87%;
+    padding-left: 1px;
+  }
+
+  .blog__entry { padding-bottom: 129px; }
+
+  .blog__img {
+    width: 101%;
+    height: 42%;
+    margin-bottom: 26px;
+  }
+
+  .blog__description { padding-bottom: 25px; }
+
+  .blog__title {
+    margin-bottom: 26px;
+  }
+
+  .blog__link {
+    justify-content: space-between;
+  }
+
+  .image__arrow-3 {
+    width: 42px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+  }
+
+  .gallery__subtitle {
+    margin: 3px 5px 8px 10px;
+    padding: 0;
+  }
+
+  .gallery {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .footer__wrapper {
+    padding-top: 37px;
+  }
+
+  .footer {
+    margin-top: 271px;
+  }
+
+  .footer__title {
+    margin-bottom: -3px;
+  }
+
+  #number2 {
+    height: 134px;
+  }
+
+  #number4 {
+    height: 237px;
+  }
+
+  .discount { margin: 13px 10px 20px; }
 }
